@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="apple-touch-icon" sizes="152x152" href="./img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="./img/favicon/site.webmanifest">
+    <link rel="mask-icon" href="./img/favicon/safari-pinned-tab.svg" color="#eb2f64">
+    <link rel="shortcut icon" href="./img/favicon/favicon.ico">
+    <meta name="apple-mobile-web-app-title" content="Trillo">
+    <meta name="application-name" content="Trillo">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-config" content="./img/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <title>Trillo &mdash; Your all-in-one booking app</title>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <img
+        src="./img/logo/logo_mska8y.png"
+        alt="trillo logo" class="logo" />
+        <form action="#" class="search">
+          <input
+            type="search"
+            class="search__input"
+            placeholder="Search hotels"
+          />          
+          <ul class="search__suggestions">
+              <li class="search__suggestions-item"><a href="#" class="search__suggestions-link">Hotel Lemonade 
+                 <div class="search__suggestions-stars">
+                  <svg class="search__suggestions-icon-star">
+                    <use xlink:href="./img/sprite.svg#icon-star"></use>
+                  </svg>
+                  <svg class="search__suggestions-icon-star">
+                    <use xlink:href="./img/sprite.svg#icon-star"></use>
+                  </svg>
+                  <svg class="search__suggestions-icon-star">
+                    <use xlink:href="./img/sprite.svg#icon-star"></use>
+                  </svg>
+                  <svg class="search__suggestions-icon-star">
+                    <use xlink:href="./img/sprite.svg#icon-star-outlined"></use>
+                  </svg>
+                  <svg class="search__suggestions-icon-star">
+                    <use xlink:href="./img/sprite.svg#icon-star-outlined"></use>
+                  </svg>
+                </div>
+                </a></li>
+              <li class="search__suggestions-item"><a href="#" class="search__suggestions-link">Four Seasons Resort
+                  <div class="search__suggestions-stars">
+                      <svg class="search__suggestions-icon-star">
+                        <use xlink:href="./img/sprite.svg#icon-star"></use>
+                      </svg>
+                      <svg class="search__suggestions-icon-star">
+                        <use xlink:href="./img/sprite.svg#icon-star"></use>
+                      </svg>
+                      <svg class="search__suggestions-icon-star">
+                        <use xlink:href="./img/sprite.svg#icon-star"></use>
+                      </svg>
+                      <svg class="search__suggestions-icon-star">
+                        <use xlink:href="./img/sprite.svg#icon-star"></use>
+                      </svg>
+                      <svg class="search__suggestions-icon-star">
+                        <use xlink:href="./img/sprite.svg#icon-star"></use>
+                      </svg>
+                    </div>
+              </a></li>
+              <li class="search__suggestions-item"><a href="#" class="search__suggestions-link">Invitation Inn
+                  <div class="search__suggestions-stars">
+                      <svg class="search__suggestions-icon-star">
+                        <use xlink:href="./img/sprite.svg#icon-star"></use>
+                      </svg>
+                      <svg class="search__suggestions-icon-star">
+                        <use xlink:href="./img/sprite.svg#icon-star"></use>
+                      </svg>
+                      <svg class="search__suggestions-icon-star">
+                        <use xlink:href="./img/sprite.svg#icon-star"></use>
+                      </svg>
+                      <svg class="search__suggestions-icon-star">
+                        <use xlink:href="./img/sprite.svg#icon-star"></use>
+                      </svg>
+                      <svg class="search__suggestions-icon-star">
+                        <use xlink:href="./img/sprite.svg#icon-star-outlined"></use>
+                      </svg>
+                    </div>
+              </a></li>
+              <li class="search__suggestions-item"><a href="#" class="search__suggestions-link">The White Rock Hotel
+                  <div class="search__suggestions-stars">
+                      <svg class="search__suggestions-icon-star">
+                        <use xlink:href="./img/sprite.svg#icon-star"></use>
+                      </svg>
+                      <svg class="search__suggestions-icon-star">
+                        <use xlink:href="./img/sprite.svg#icon-star"></use>
+                      </svg>
+                      <svg class="search__suggestions-icon-star">
+                        <use xlink:href="./img/sprite.svg#icon-star-outlined"></use>
+                      </svg>
+                      <svg class="search__suggestions-icon-star">
+                        <use xlink:href="./img/sprite.svg#icon-star-outlined"></use>
+                      </svg>
+                      <svg class="search__suggestions-icon-star">
+                        <use xlink:href="./img/sprite.svg#icon-star-outlined"></use>
+                      </svg>
+                    </div>
+              </a></li>
+          </ul>
+          <button class="search__button">
+            <svg class="search__icon">
+              <use xlink:href="./img/sprite.svg#icon-magnifying-glass"></use>
+            </svg>
+          </button>
+
+        </form>
+
+        <nav class="user-nav">
+          <div class="user-nav__icon-box">
+            <svg class="user-nav__icon">
+              <use xlink:href="./img/sprite.svg#icon-bookmark"></use>
+            </svg>
+            <span class="user-nav__notification">7</span>   
+          </div>
+
+          <div class="user-nav__icon-box">
+            <svg class="user-nav__icon">
+              <use xlink:href="./img/sprite.svg#icon-chat"></use>
+            </svg>
+            <span class="user-nav__notification">13</span>
+
+            <ul class="user-nav__message-board">            
+                  <li>
+                    <div class="user-nav__message-board-box-1">
+                    <p class="user-nav__message-board-recent">Recent(13)</p>     
+                    <a href="" class="user-nav__message-board-new-msg">New Message</a>  
+                   </div>   
+                </li>
+              <li class="user-nav__message-board-item">
+                  <a href="" class="user-nav__message-board-link"> 
+                      <div class="user-nav__message-board-box user-nav__message-board-box-read">                   
+                           <img src="./img/user/user-4_xuuaai.jpg" alt="User 1" class="user-nav__message-board-photo"/>
+                          <p class="user-nav__message-board-name">Elsie Smitham</p>
+                          <p class="user-nav__message-board-date">5 hours ago</p>                        
+                          <p class="user-nav__message-board-msg">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt perspiciatis voluptatibus, natus doloribus deleniti quam repellat ullam eaque sint, culpa illum! Quasi illo sequi cupiditate at modi eius fugit. Quos?
+                          </p>
+                        </div>       
+                </a>              
+              </li>
+
+              <li class="user-nav__message-board-item">
+                  <a href="" class="user-nav__message-board-link"> 
+                      <div class="user-nav__message-board-box">                   
+                           <img src="./img/user/user-3_g8vopb.jpg" alt="User 2" class="user-nav__message-board-photo"/>
+                          <p class="user-nav__message-board-name">Nick Smith</p>
+                          <p class="user-nav__message-board-date">Yesterday, 11:00</p>                        
+                          <p class="user-nav__message-board-msg">
+                              Sunt perspiciatis voluptatibus, natus doloribus deleniti quam repellat ullam eaque sint, culpa illum! Quasi illo sequi cupiditate at modi eius fugit. Quos?
+                          </p>
+                        </div>       
+                </a>              
+              </li>
+
+              <li class="user-nav__message-board-item">
+                  <a href="" class="user-nav__message-board-link"> 
+                      <div class="user-nav__message-board-box user-nav__message-board-box-read">                   
+                           <img src="./img/user/user-5_pvscyi.jpg" alt="User 3" class="user-nav__message-board-photo "/>
+                          <p class="user-nav__message-board-name">Israel Parker</p>
+                          <p class="user-nav__message-board-date">Yesterday, 19:00</p>                        
+                          <p class="user-nav__message-board-msg">
+                              Natus doloribus deleniti quam repellat ullam eaque sint, culpa illum! Quasi illo sequi cupiditate at modi eius fugit. Quos?
+                          </p>
+                        </div>       
+                </a>              
+              </li>
+
+              <li class="user-nav__message-board-item">
+                  <a href="" class="user-nav__message-board-link"> 
+                      <div class="user-nav__message-board-box">                   
+                           <img src="./img/user/user-6_zzr5y0.jpg" alt="User 4" class="user-nav__message-board-photo"/>
+                          <p class="user-nav__message-board-name">Isabel Fahey</p>
+                          <p class="user-nav__message-board-date">Tuesday, 11:00</p>                        
+                          <p class="user-nav__message-board-msg">
+                              Rrepellat ullam eaque sint, culpa illum Quasi illo sequi cupiditate at modi eius fugit. Quos?
+                          </p>
+                        </div>       
+                </a>              
+              </li>
+
+              <li class="user-nav__message-board-item">
+                  <a href="" class="user-nav__message-board-link"> 
+                      <div class="user-nav__message-board-box">                   
+                           <img src="./img/user/user-2_fujwge.jpg" alt="User 5" class="user-nav__message-board-photo"/>
+                          <p class="user-nav__message-board-name">Elvie Smith</p>
+                          <p class="user-nav__message-board-date">Tuesday, 19:00</p>                        
+                          <p class="user-nav__message-board-msg">
+                              Quasi illo sequi cupiditate at modi eius fugit. Quos?
+                          </p>
+                        </div>       
+                </a>              
+              </li>
+
+              <li class="user-nav__message-board-item">
+                  <div class="user-nav__message-board-box-2">
+                  <a href="" class="user-nav__message-board-show-all">Show All</a>  
+                  <a href="" class="user-nav__message-board-mark">Mark all as Read</a>  
+                 </div>   
+              </li>
+              </ul>
+          </div>
+
+          <div class="user-nav__user-box">
+            <div class="user-nav__user">
+              <img
+                src="./img/user/user_rkjo98.jpg"
+                alt="User photo"
+                class="user-nav__user-photo"
+              />
+              <span class="user-nav__user-name">Jonas</span>
+            </div>
+            
+            <ul class="user-nav__settings">
+              <li class="user-nav__settings-item">
+                <a href="" class="user-nav__settings-link">               
+                 <svg class="user-nav__settings-icon">
+                  <use xlink:href="./img/sprite.svg#icon-user"></use>
+                </svg>
+                <span>My Profile</span>
+              </a>
+            </li>
+              <li class="user-nav__settings-item">
+                  <a href="" class="user-nav__settings-link">               
+                      <svg class="user-nav__settings-icon">
+                       <use xlink:href="./img/sprite.svg#icon-cog"></use>
+                     </svg>
+                <snap>Settings</snap>         
+              </a>
+              </li>
+              <li class="user-nav__settings-item">                
+                <a href="" class="user-nav__settings-link">               
+                  <svg class="user-nav__settings-icon">
+                   <use xlink:href="./img/sprite.svg#icon-help-with-circle"></use>
+                 </svg>
+                 <span>Help Me</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+
+
+        </nav>
+      </header>
+
+      <div class="content">
+        <nav class="sidebar">
+          <ul class="side-nav">
+            <li class="side-nav__item side-nav__item--active">
+              <a href="" class="side-nav__link">
+                <svg class="side-nav__icon">
+                  <use xlink:href="./img/sprite.svg#icon-home"></use>
+                </svg>
+                <span>Hotel</span>
+              </a>
+            </li>
+
+            <li class="side-nav__item">
+              <a href="" class="side-nav__link">
+                <svg class="side-nav__icon">
+                  <use
+                    xlink:href="./img/sprite.svg#icon-aircraft-take-off"
+                  ></use>
+                </svg>
+                <span>Flight</span>
+              </a>
+            </li>
+
+            <li class="side-nav__item">
+              <a href="" class="side-nav__link">
+                <svg class="side-nav__icon">
+                  <use xlink:href="./img/sprite.svg#icon-key"></use>
+                </svg>
+                <span>Car rental</span>
+              </a>
+            </li>
+
+            <li class="side-nav__item">
+              <a href="" class="side-nav__link">
+                <svg class="side-nav__icon">
+                  <use xlink:href="./img/sprite.svg#icon-map"></use>
+                </svg>
+                <span>Tour</span>
+              </a>
+            </li>
+          </ul>
+
+          <div class="legal">
+            &copy; 2019 by Trillo. All right reserved
+          </div>
+        </nav>
+
+        <main class="hotel-view">
+          <div class="gallery">
+            <figure class="gallery__item">
+              <picture>
+              <img
+              sizes="(max-width: 93.75em) 100vw, 93.75em"
+              srcset="
+              ./img/hotel/hotel-1_mejqn0_c_scale,w_450.jpg 450w,
+              ./img/hotel/hotel-1_mejqn0_c_scale,w_758.jpg 758w,
+              ./img/hotel/hotel-1_mejqn0_c_scale,w_980.jpg 980w,
+              ./img/hotel/hotel-1_mejqn0_c_scale,w_1210.jpg 1210w,
+              ./img/hotel/hotel-1_mejqn0_c_scale,w_1396.jpg 1396w,
+              ./img/hotel/hotel-1_mejqn0_c_scale,w_1500.jpg 1500w"
+              src="./img/hotel/hotel-1_mejqn0_c_scale,w_1500.jpg"
+                alt="Photo of hotel 1"
+                class="gallery__photo"
+              />
+            </picture>
+            </figure>
+
+            <figure class="gallery__item">
+                <picture>
+              <img
+              sizes="(max-width: 93.75em) 100vw, 93.75em"
+              srcset="
+              ./img/hotel/hotel-2_k6tpu7_c_scale,w_450.jpg 450w,
+              ./img/hotel/hotel-2_k6tpu7_c_scale,w_777.jpg 777w,
+              ./img/hotel/hotel-2_k6tpu7_c_scale,w_1030.jpg 1030w,
+              ./img/hotel/hotel-2_k6tpu7_c_scale,w_1246.jpg 1246w,
+              ./img/hotel/hotel-2_k6tpu7_c_scale,w_1438.jpg 1438w,
+              ./img/hotel/hotel-2_k6tpu7_c_scale,w_1500.jpg 1500w"
+              src="./img/hotel/hotel-2_k6tpu7_c_scale,w_1500.jpg"
+                alt="Photo of hotel 2"
+                class="gallery__photo"
+              />
+            </picture>
+            </figure>
+
+            <figure class="gallery__item">
+                <picture>
+              <img
+              sizes="(max-width: 93.75em) 100vw, 93.75em"
+              srcset="
+              ./img/hotel/hotel-3_yhuy3n_c_scale,w_450.jpg 450w,
+              ./img/hotel/hotel-3_yhuy3n_c_scale,w_765.jpg 765w,
+              ./img/hotel/hotel-3_yhuy3n_c_scale,w_1007.jpg 1007w,
+              ./img/hotel/hotel-3_yhuy3n_c_scale,w_1213.jpg 1213w,
+              ./img/hotel/hotel-3_yhuy3n_c_scale,w_1391.jpg 1391w,
+              ./img/hotel/hotel-3_yhuy3n_c_scale,w_1500.jpg 1500w"
+              src="./img/hotel/hotel-3_yhuy3n_c_scale,w_1500.jpg"
+                alt="Photo of hotel 3"
+                class="gallery__photo"
+              />
+            </picture>
+            </figure>
+          </div>
+
+          <div class="overview">
+            <h1 class="overview__heading">
+              Hotel Les Palmas
+            </h1>
+            <div class="overview__stars">
+              <svg class="overview__icon-star">
+                <use xlink:href="./img/sprite.svg#icon-star"></use>
+              </svg>
+              <svg class="overview__icon-star">
+                <use xlink:href="./img/sprite.svg#icon-star"></use>
+              </svg>
+              <svg class="overview__icon-star">
+                <use xlink:href="./img/sprite.svg#icon-star"></use>
+              </svg>
+              <svg class="overview__icon-star">
+                <use xlink:href="./img/sprite.svg#icon-star"></use>
+              </svg>
+              <svg class="overview__icon-star">
+                <use xlink:href="./img/sprite.svg#icon-star"></use>
+              </svg>
+            </div>
+
+            <div class="overview__location">
+              <svg class="overview__icon-location">
+                <use xlink:href="./img/sprite.svg#icon-location-pin"></use>
+              </svg>
+              <button class="btn-inline">Albufeira, Portugal</button>
+            </div>
+
+            <div class="overview__rating">
+              <div class="overview__rating-average">8.6</div>
+              <div class="overview__rating-count">429 votes</div>
+            </div>
+          </div>
+
+          <div class="detail">
+            <div class="description">
+              <p class="paragraph">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi
+                nisi dignissimos debitis ratione sapiente saepe. Accusantium
+                cumque, quas, ut corporis incidunt deserunt quae architecto
+                voluptate.
+              </p>
+              <p class="paragraph">
+                Accusantium cumque, quas, ut corporis incidunt deserunt quae
+                architecto voluptate delectus, inventore iure aliquid aliquam.
+              </p>
+
+              <ul class="list">
+                <li class="list__item">Close to the beach</li>
+                <li class="list__item">Breakfast included</li>
+                <li class="list__item">Free Airport shuttle</li>
+                <li class="list__item">Free Wi-Fi in all rooms</li>
+                <li class="list__item">Air conditioning and heating</li>
+                <li class="list__item">Pets allowed</li>
+                <li class="list__item">We speak all languages</li>
+                <li class="list__item">Perfect for families</li>
+              </ul>
+
+              <div class="recommend">
+
+                <p class="recommend__count">
+                  Lucy and 3 other friends recommend this hotel
+                </p>
+                <div class="recommend__friends">
+                  <img
+                    src="./img/user/user-3_g8vopb.jpg"
+                    alt="Friend 1"
+                    class="recommend__photo"
+                  />
+                  <img
+                    src="./img/user/user-4_xuuaai.jpg"
+                    alt="Friend 2"
+                    class="recommend__photo"
+                  />
+                  <img
+                    src="./img/user/user-5_pvscyi.jpg"
+                    alt="Friend 3"
+                    class="recommend__photo"
+                  />
+                  <img
+                    src="./img/user/user-6_zzr5y0.jpg"
+                    alt="Friend 4"
+                    class="recommend__photo"
+                  />
+                </div>
+              </div>
+            </div>
+
+            <div class="user-reviews">
+
+              <figure class="review">
+                <blockquote class="review__text">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga
+                  doloremque architecto dicta animi, totam, itaque officia ex.
+                </blockquote>
+                <figcaption class="review__user">
+                  <img 
+                  src="./img/user/user-1_hx55u4.jpg" alt="User 1" class="review__photo"/>
+                  <div class="review__user-box">
+                    <Nick class="review__user-name">Nick Smith</p>
+                    <p class="review__user-date">Feb 23rd, 2017</p>
+                  </div>
+                  <div class="review__rating">7.8</div>
+                </figcaption>
+              </figure>
+
+              <figure class="review">
+                <blockquote class="review__text">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga
+                  doloremque architecto dicta animi.
+                </blockquote>
+                <figcaption class="review__user">
+                  <img
+                  src="./img/user/user-2_fujwge.jpg" alt="User 2" class="review__photo"/>
+                  <div class="review__user-box">
+                    <p class="review__user-name">Mary Thomas</p>
+                    <p class="review__user-date">Sept 13th, 2017</p>
+                  </div>
+                  <div class="review__rating">9.3</div>
+                </figcaption>
+              </figure>
+
+              <button class="btn-inline">
+                Show all <span>&rarr;</span>
+              </button>
+
+            </div>
+          </div>
+
+            <div class="cta">
+              <h2 class="cta__book-now">
+          Good news! We have 4 free rooms for your selected dates
+              </h2>
+            <button class="btn">
+              <span class="btn__visible">Book Now</span>
+              <span class="btn__invisible"> Only 4 rooms left</span>
+            </button>
+            </div>
+        </main>
+      </div>
+    </div>
+  </body>
+</html>
